@@ -1,0 +1,30 @@
+
+.change-plan{
+    font-family: $font;
+    color: $colorButton;
+    margin: 0px 25px 0px 5px;
+}
+
+button{
+    border-radius: 10px;
+    background-color: $colorButton;
+    font-family: $font;
+    font-size: 16px;
+    font-weight: bold;
+    color: $backgroundSecond;
+    height: 50px;
+    width: 90%;
+    margin-top: 25px;
+    border: none;
+    box-shadow: 5px 5px 3px $colortitle;
+}
+
+.cancel{
+    font-family: $font;
+    font-size: 15px;
+    font-weight: bold;
+    color: $colorHover;
+    margin: 20px 0px 30px 0px;
+    text-decoration: none;
+}
+

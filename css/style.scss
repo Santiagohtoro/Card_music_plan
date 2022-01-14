@@ -1,0 +1,15 @@
+@import "_variables.scss";
+@import "_card.scss";
+@import "_vinculos.scss";
+@import "_animaciones.scss";
+@import "_breakpoints";
+
+body{
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $backgroundFirst;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

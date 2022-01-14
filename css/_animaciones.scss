@@ -1,0 +1,17 @@
+//animaciones vinculos
+@mixin transicion($color) {
+    color: $color;
+}
+
+.change-plan:active{
+    @include transicion($colorHover);
+}
+
+button:active{
+    opacity: 50%;
+    box-shadow: none;
+}
+
+.cancel:active{
+    @include transicion($colortitle);
+}
